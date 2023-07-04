@@ -1,0 +1,38 @@
+
+
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50%;
+    height: 80%;
+}
+
+img::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+a{
+    text-decoration: none;
+    color:red;
+}
+a:hover {
+    text-decoration: underline;
+    color:red;
+  }
+
+a:active {
+    text-decoration: underline;
+  }
