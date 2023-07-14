@@ -16,6 +16,14 @@ social_media = {
     "GitHub": "https://github.com/ahmed-2001M",
 }
 
+PROJECTS = {
+    "🏆 Scraping Bot - work to fetch durgs information from drugs.com": "https://github.com/ahmed-2001M/ScrapingBot",
+    "🏆 CNN Model - for Lung Cancer Detection with Lung Segmentation": "https://github.com/ahmed-2001M/LungCancer-Model",
+    "🏆 eCommerce Dataset - i was try to get insights and do many types of segmentations": "https://github.com/ahmed-2001M/Play_wIth_DatA-/tree/master/ecommerce",
+    "🏆 Drought dataset - i was try to make this data ready for ML Models": "https://pythonandvba.com/mytoolbelt/",
+}
+
+
 st.set_page_config(page_title=page_title)
 
 
@@ -54,3 +62,26 @@ st.write("#")
 cols = st.columns(len(social_media))
 for idx, (platform, link) in enumerate(social_media.items()):
     cols[idx].write(f"[{platform}]({link})")
+
+
+
+# --- SKILLS ---
+st.write('\n')
+st.subheader("Hard Skills")
+st.write(
+    """
+
+- 👩‍💻 Programming Languages : (Python , c\c++, ease to learn any language )
+- 📊 Data Science Skills : ( Data Cleaning, Data Analysis, Data Visualization, Web Scraping )
+- 📚 CS Concepts : ( OOP, Problem Solving, Data Structures, Algorithms)
+- 🗄️ Database : (SQL , Mysql )
+"""
+)
+
+
+# --- Projects & Accomplishments ---
+st.write('\n')
+st.subheader("Projects & Accomplishments")
+st.write("---")
+for project, link in PROJECTS.items():
+    st.write(f"- [{project}]({link})")
