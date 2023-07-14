@@ -20,7 +20,7 @@ PROJECTS = {
     "🏆 Scraping Bot - work to fetch durgs information from drugs.com": "https://github.com/ahmed-2001M/ScrapingBot",
     "🏆 CNN Model - for Lung Cancer Detection with Lung Segmentation": "https://github.com/ahmed-2001M/LungCancer-Model",
     "🏆 eCommerce Dataset - i was try to get insights and do many types of segmentations": "https://github.com/ahmed-2001M/Play_wIth_DatA-/tree/master/ecommerce",
-    "🏆 Drought dataset - i was try to make this data ready for ML Models": "https://github.com/ahmed-2001M/midproject",
+    "🏆 Drought dataset - i was try to make this data ready for ML Models": "https://github.com/ahmed-2001M/mid-project",
 }
 
 
