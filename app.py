@@ -11,6 +11,8 @@ page_title = "Ahmed's Resume"
 name = "Ahmed Abdallah"
 Description = "Fresh Data Analyst"
 email = "ahmed.abdallah10024@gmail.com"
+location = "Giza"
+phone = "01141407873"
 social_media = {
     "Linkedin": "https://www.linkedin.com/in/ahmed4abdallah4fever/",
     "GitHub": "https://github.com/ahmed-2001M",
@@ -49,13 +51,16 @@ with col1:
 with col2:
     st.title(name)
     st.write(Description)
+    
+    st.write("📫", email)
+    st.write("🏙️",location)
+    st.write("📞",phone)
     st.download_button(
         ":page_facing_up: Download Resume",
         data=pdfbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", email)
 
 st.write("#")
 
