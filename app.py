@@ -9,7 +9,7 @@ profile_pic = current_dir / "assets" / "av2.jpg"
 
 page_title = "Ahmed's Resume"
 name = "Ahmed Abdallah"
-Description = "Fresh Data Analyst"
+Description = "Fresh Data Analyst & Data Engineer"
 email = "ahmed.abdallah10024@gmail.com"
 location = "Giza"
 phone = "01141407873"
